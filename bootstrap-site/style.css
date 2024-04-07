@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #085e70 !important;
+  color: white;
+}
+.navbar ul a {
+  color: #fff455 !important;
+}
+.navbar .navbar-nav li a:hover {
+  color: #ffc107 !important;
+}
+.main {
+  background-color: #085e70 !important;
+}
+.card-img-top {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+}
+#map {
+  height: 450px;
+}
+
+@media (min-width: 768px) {
+  .card-img-top {
+    height: 32vh;
+  }
+  #map {
+    height: 100%;
+  }
+}
